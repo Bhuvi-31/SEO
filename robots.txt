@@ -1,0 +1,7 @@
+# robots.txt for Clearwater Plumbing Co.
+# PLACEHOLDER DOMAIN — replace clearwaterplumbingpdx.com below with your real live domain once the site is live.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.clearwaterplumbingpdx.com/sitemap.xml
