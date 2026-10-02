@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEO Practice Lab | Interactive SEO Training Simulator</title>
+    <meta name="description" content="Master On-Page, Technical, Off-Page SEO and Auditing with an interactive 2026 SaaS practice simulator." />
+    <!-- Google Fonts Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="./assets/index-DlBmPpfm.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CQYnSTu3.css">
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased selection:bg-indigo-500 selection:text-white font-sans min-h-screen">
+    <!-- Main React Root Container -->
+    <div id="root"></div>
+
+    <!-- Static Opening Protocol Detection Banner -->
+    <div id="file-protocol-warning" style="display: none;" class="min-h-screen flex items-center justify-center p-6 bg-slate-950 text-slate-100 font-sans">
+      <div className="max-w-xl p-8 bg-slate-900 border border-amber-500/30 rounded-2xl text-center space-y-4 shadow-2xl">
+        <div style="font-size: 40px; margin-bottom: 10px;">🚀</div>
+        <h2 style="font-size: 22px; font-weight: 800; color: #ffffff;">SEO Practice Lab — Development Server Required</h2>
+        <p style="font-size: 14px; color: #94a3b8; line-height: 1.6;">
+          You opened <code style="background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px; color: #a5b4fc;">index.html</code> directly via static <code style="background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px; color: #a5b4fc;">file://</code> protocol.
+          Modern React & Vite applications require an active development server or compiled distribution build.
+        </p>
+
+        <div style="background: #090d16; padding: 16px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1); text-align: left; font-family: monospace; font-size: 13px; color: #818cf8;">
+          <p style="color: #94a3b8; margin-bottom: 6px;"># To start the dev server, open terminal in project folder and run:</p>
+          <strong style="color: #ffffff;">npm run dev</strong>
+          <p style="color: #94a3b8; margin-top: 10px; margin-bottom: 6px;"># Then open in your browser:</p>
+          <strong style="color: #34d399;">http://localhost:3000/</strong>
+        </div>
+
+        <p style="font-size: 12px; color: #64748b;">
+          Or run <code style="color: #cbd5e1;">npm run build</code> to generate the standalone production build inside <code style="color: #cbd5e1;">dist/</code>.
+        </p>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      // Check if file:// protocol is used directly in raw browser
+      if (window.location.protocol === 'file:') {
+        setTimeout(function() {
+          var rootEl = document.getElementById('root');
+          if (!rootEl || rootEl.children.length === 0) {
+            var warningEl = document.getElementById('file-protocol-warning');
+            if (warningEl) warningEl.style.display = 'flex';
+          }
+        }, 800);
+      }
+    </script>
+
+    <!-- Main Vite Module Entry Point -->
+  </body>
+</html>
